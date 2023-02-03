@@ -3,3 +3,41 @@ body{
     no-repeat center center fixed;
     background-size: cover;
 }
+.container{
+    /* background: black;
+    color: white; */
+    border-radius: 1em;
+    padding: 1em;
+    height: 10em;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.add{
+    background-color: #2332ba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 376px;
+    padding: 15px 32px;
+    background-color: #2332ba;
+    color: white;   
+}
+
+input::placeholder{
+    color: white;
+    font-size: large;
+}
