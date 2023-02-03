@@ -1,0 +1,62 @@
+body{
+    background: url(https://img.gazeta.ru/files3/603/15682603/upload-301612390_859093022166741_3679801309652898021_n-pic_32ratio_900x600-900x600-34875.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+.container{
+    /* background: black;
+    color: white; */
+    border-radius: 1em;
+    padding: 1em;
+    height: 10em;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+h1{
+    position: relative;
+    top: 6em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.container h4{
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+#toDoList{
+    
+    background-color: #2332ba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#calc{
+    background-color: #2332ba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
