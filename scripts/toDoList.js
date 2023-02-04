@@ -39,6 +39,13 @@ todo.addEventListener('change',function(event){
     let idInput = event.target.getAttribute('id');
     let forLabel = todo.querySelector('[for='+ idInput +']');
     let valueLabel = forLabel.innerHTML;
-    console.log('valuelabel 22:19:',valueLabel);
+
+    todoList.forEach(function(item){
+        if (item.todo === valueLabel){
+            item.checked = !item.checked;
+            localStorage.setItem('todo',JSON.stringify(todoList));
+        }
+    })
+    
     
 })
